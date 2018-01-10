@@ -20,11 +20,17 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+    compile files('libs/adchina_android_sdk_v3.2.2.jar')
+    compile files('libs/AdsMOGO_Android_SDK_1.6.4.jar')
+    compile files('libs/domob_android_sdk_v4.6.4.jar')
+    compile files('libs/GDTUnionSDK_v4.8.512.jar')
+    compile files('libs/guomob_android_sdk_v3.5.0.jar')
+    compile files('libs/YoumiSdk_v5.1.1_2015-09-23.jar')
 }
