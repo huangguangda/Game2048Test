@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEE0E5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="2048"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btStart"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:text="开始游戏"
+            android:textColor="#8B5A00"
+            android:textSize="20sp" />
+
+        <!-- <Button -->
+        <!-- android:id="@+id/btSet" -->
+        <!-- android:layout_width="100dp" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center_horizontal" -->
+        <!-- android:layout_marginTop="20dp" -->
+        <!-- android:background="#EEB422" -->
+        <!-- android:text="设  置" -->
+        <!-- android:textColor="#8B5A00" -->
+        <!-- android:textSize="20sp" /> -->
+
+        <Button
+            android:id="@+id/btRule"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:text="游戏规则"
+            android:textColor="#8B5A00"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btAbout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:text="关   于"
+            android:textColor="#8B5A00"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        tvScore = (TextView) findViewById(R.id.texscore);
+        tvScore = (TextView) findViewById(R.id.textscore);
 
         tvMaxScore = (TextView) findViewById(R.id.texMaxscore);
 
